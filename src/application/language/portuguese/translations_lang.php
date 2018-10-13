@@ -1,5 +1,8 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 // Portuguese
+//bybso added
+$lang['welcome_social_login'] = 'Bem vindo! Para fazer marcação faça login por favor';
+//
 $lang['page_title'] = 'Livro de Apontamentos';
 $lang['step_one_title'] = 'Selecione o serviço e o fornecedor';
 $lang['select_service'] = 'Selecione o serviço';

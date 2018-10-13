@@ -35,6 +35,60 @@ body {
 
 /* BOOK APPOINTMENT WIZARD
  ------------------------------------------------------------------------------ */
+#social-media-login {
+    background: #FFF;
+    box-shadow: 0px 1px 1px #B6B6B6;
+    min-height: 480px;
+    padding: 0;
+}
+
+#social-media-login #header {
+    padding: 5px;
+    height: 90px;
+    background: #3DD481;
+    border-bottom: 4px solid #c0f1d6;
+}
+
+#social-media-login #company-name {
+    display: block;
+    font-size: 1.3em;
+    color: #FFF;
+    margin: 16px 10px 0 15px;
+    float: none;
+    text-align: center;
+}
+
+#social-media-login .button-frame {
+    padding: 10px 20px;
+    height: 560px;
+}
+
+#social-media-login .button-frame .frame-container {
+    height: 440px;
+    margin-bottom: 10px;
+}
+
+#social-media-login .frame-container .frame-title {
+    text-align: center;
+    margin-bottom: 28px;
+    color: #666;
+}
+
+#social-media-login .frame-container .frame-content {
+    margin: auto;
+    float: none;
+}
+
+#social-media-login #frame-footer {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #EEE;
+    background: #FAFAFA;
+}
+
+
+/* BOOK APPOINTMENT WIZARD
+ ------------------------------------------------------------------------------ */
 #book-appointment-wizard {
     background: #FFF;
     box-shadow: 0px 1px 1px #B6B6B6;
@@ -258,6 +312,27 @@ body {
         width: 100vw;
     }
 
+
+    #social-media-login #header {
+        overflow: auto;
+        height: auto;
+    }
+
+    #social-media-login #company-name {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    #social-media-login .button-frame {
+        padding: 0 10px;
+        height: auto;
+    }
+
+    #social-media-login .button-frame .frame-container {
+        height: auto;
+    }
+
     #book-appointment-wizard #header {
         overflow: auto;
         height: auto;
@@ -400,6 +475,11 @@ body {
         margin: 0;
         display: block;
     }
+
+    #social-media-login {
+        box-shadow: none;
+    }
+
 
     #book-appointment-wizard {
         box-shadow: none;
